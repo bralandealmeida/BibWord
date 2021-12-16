@@ -1,0 +1,2487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Forms xmlns="http://schemas.openxmlformats.org/officeDocument/2006/bibliography">
+<Source type="Monography" display="Monografia: Trabalho Acadêmico">
+		<Tag>
+			<Label>Autor:</Label>
+			<DataTag>b:Author/b:Author/b:NameList</DataTag>
+			<Sample>Exemplo: Teixeira, João P.; Alves, Filipa</Sample>
+			<ToString>Author2String.XSL</ToString>
+			<ToXML>Author2XML.XSL</ToXML>
+			<Author>Yes</Author>
+			<OrgAuthor>Yes</OrgAuthor>
+			<Row>1</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Título:</Label>
+			<DataTag>b:Title</DataTag>
+			<TitlePriority>1</TitlePriority>
+			<Sample>Exemplo: Como escrever bibliografias</Sample>
+			<Row>3</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Tipo de Trabalho:</Label>
+			<DataTag>b:Type</DataTag>
+			<TitlePriority>1</TitlePriority>
+			<Sample>Exemplo: Dissertação, Tese, etc.</Sample>
+			<Row>3</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Grau e Curso:</Label>
+			<DataTag>b:DegreeAndCourse</DataTag>
+			<TitlePriority>1</TitlePriority>
+			<Sample>Exemplo: Mestrado em Fisiopatologia Experimental.</Sample>
+			<Row>3</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Orientador:</Label>
+			<DataTag>b:Advisor</DataTag>
+			<TitlePriority>1</TitlePriority>
+			<Sample>Exemplo: Prof. Dr. XYZ</Sample>
+			<Row>3</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Cidade:</Label>
+			<DataTag>b:City</DataTag>
+			<Sample>Exemplo: São Paulo</Sample>
+			<Row>4</Row>
+			<Col>1</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Ano:</Label>
+			<DataTag>b:Year</DataTag>
+			<Sample>Exemplo: 2006</Sample>
+			<Row>5</Row>
+			<Col>5</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Vinculação Acadêmica:</Label>
+			<DataTag>b:Academics</DataTag>
+			<Sample>Exemplo: Faculdade de Medicina, Universidade de São Paulo</Sample>
+			<Row>5</Row>
+			<Col>5</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Páginas:</Label>
+			<DataTag>b:Pages</DataTag>
+			<Sample>Exemplo: 50-62</Sample>
+			<Row>6</Row>
+			<Col>5</Col>
+			<Width>1</Width>
+		</Tag>
+	</Source>
+	<Source type="Book" display="Livro">
+		<Tag>
+			<Label>Autor:</Label>
+			<DataTag>b:Author/b:Author/b:NameList</DataTag>
+			<Sample>Exemplo: Dickens, Charles; Hemingway, Ernest</Sample>
+			<ToString>Author2String.XSL</ToString>
+			<ToXML>Author2XML.XSL</ToXML>
+			<Author>Yes</Author>
+			<OrgAuthor>Yes</OrgAuthor>
+			<Row>1</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Título:</Label>
+			<DataTag>b:Title</DataTag>
+			<TitlePriority>1</TitlePriority>
+			<Sample>Exemplo: Como escrever bibliografias</Sample>
+			<Row>3</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Cidade:</Label>
+			<DataTag>b:City</DataTag>
+			<Sample>Exemplo: Chicago</Sample>
+			<Row>4</Row>
+			<Col>1</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Estado/Província:</Label>
+			<DataTag>b:StateProvince</DataTag>
+			<Sample>Exemplo: Washington</Sample>
+			<Row>4</Row>
+			<Col>3</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>País/Região:</Label>
+			<DataTag>b:CountryRegion</DataTag>
+			<Sample>Exemplo: Estados Unidos da América</Sample>
+			<Row>4</Row>
+			<Col>5</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Editor:</Label>
+			<DataTag>b:Publisher</DataTag>
+			<Sample>Exemplo: Adventure Works Press</Sample>
+			<Row>5</Row>
+			<Col>1</Col>
+			<Width>3</Width>
+		</Tag>
+		<Tag>
+			<Label>Ano:</Label>
+			<DataTag>b:Year</DataTag>
+			<Sample>Exemplo: 2006</Sample>
+			<Row>5</Row>
+			<Col>5</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Volume:</Label>
+			<!--optional -->
+			<DataTag>b:Volume</DataTag>
+			<Sample>Exemplo: III</Sample>
+			<Row>6</Row>
+			<Col>1</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Número de volumes:</Label>
+			<!--optional -->
+			<DataTag>b:NumberVolumes</DataTag>
+			<Sample>Exemplo: IV</Sample>
+			<Row>6</Row>
+			<Col>3</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Páginas:</Label>
+			<DataTag>b:Pages</DataTag>
+			<Sample>Exemplo: 50-62</Sample>
+			<Row>6</Row>
+			<Col>5</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Editor:</Label>
+			<DataTag>b:Author/b:Editor/b:NameList</DataTag>
+			<Sample>Exemplo: Dickens, Charles; Hemingway, Ernest</Sample>
+			<ToString>Author2String.XSL</ToString>
+			<ToXML>Author2XML.XSL</ToXML>
+			<Author>Yes</Author>
+			<Row>7</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Tradutor:</Label>
+			<!--optional -->
+			<DataTag>b:Author/b:Translator/b:NameList</DataTag>
+			<Sample>Exemplo: Dickens, Charles; Hemingway, Ernest</Sample>
+			<ToString>Author2String.XSL</ToString>
+			<ToXML>Author2XML.XSL</ToXML>
+			<Author>Yes</Author>
+			<Row>8</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Título curto:</Label>
+			<DataTag>b:ShortTitle</DataTag>
+			<TitlePriority>2</TitlePriority>
+			<Sample>Exemplo: Bibliografias</Sample>
+			<Row>9</Row>
+			<Col>1</Col>
+			<Width>3</Width>
+		</Tag>
+		<Tag>
+			<Label>Número padrão:</Label>
+			<DataTag>b:StandardNumber</DataTag>
+			<Sample>Exemplo: ISBN/ISSN</Sample>
+			<Row>9</Row>
+			<Col>5</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Edição:</Label>
+			<DataTag>b:Edition</DataTag>
+			<Sample>Exemplo: 2 ª Edição</Sample>
+			<Row>10</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Comentários:</Label>
+			<DataTag>b:Comments</DataTag>
+			<Sample>Inserir comentários sobre esta fonte.</Sample>
+			<Row>11</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+	</Source>
+	<Source type="BookSection" display="Seção do livro">
+		<Tag>
+			<Label>Autor:</Label>
+			<DataTag>b:Author/b:Author/b:NameList</DataTag>
+			<Sample>Exemplo: Dickens, Charles; Hemingway, Ernest</Sample>
+			<ToString>Author2String.XSL</ToString>
+			<ToXML>Author2XML.XSL</ToXML>
+			<Author>Yes</Author>
+			<OrgAuthor>Yes</OrgAuthor>
+			<Row>1</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Título:</Label>
+			<DataTag>b:Title</DataTag>
+			<TitlePriority>1</TitlePriority>
+			<Sample>Exemplo: Como escrever bibliografias</Sample>
+			<Row>3</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Autor do livro:</Label>
+			<!--Need different DataTag?? -->
+			<DataTag>b:Author/b:BookAuthor/b:NameList</DataTag>
+			<Sample>Exemplo: Dickens, Charles; Hemingway, Ernest</Sample>
+			<ToString>Author2String.XSL</ToString>
+			<ToXML>Author2XML.XSL</ToXML>
+			<Author>Yes</Author>
+			<Row>4</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Título do livro:</Label>
+			<DataTag>b:BookTitle</DataTag>
+			<TitlePriority>3</TitlePriority>
+			<Sample>Exemplo: Como escrever bibliografias</Sample>
+			<Row>5</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Cidade:</Label>
+			<DataTag>b:City</DataTag>
+			<Sample>Exemplo: Chicago</Sample>
+			<Row>6</Row>
+			<Col>1</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Estado/Província:</Label>
+			<DataTag>b:StateProvince</DataTag>
+			<Sample>Exemplo: Washington</Sample>
+			<Row>6</Row>
+			<Col>3</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>País/Região:</Label>
+			<DataTag>b:CountryRegion</DataTag>
+			<Sample>Exemplo: Estados Unidos da América</Sample>
+			<Row>6</Row>
+			<Col>5</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Editor:</Label>
+			<DataTag>b:Publisher</DataTag>
+			<Sample>Exemplo: Adventure Works Press</Sample>
+			<Row>7</Row>
+			<Col>1</Col>
+			<Width>3</Width>
+		</Tag>
+		<Tag>
+			<Label>Ano:</Label>
+			<DataTag>b:Year</DataTag>
+			<Sample>Exemplo: 2006</Sample>
+			<Row>7</Row>
+			<Col>5</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Volume:</Label>
+			<!--optional -->
+			<DataTag>b:Volume</DataTag>
+			<Sample>Exemplo: III</Sample>
+			<Row>8</Row>
+			<Col>1</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Número de volumes:</Label>
+			<!--optional -->
+			<DataTag>b:NumberVolumes</DataTag>
+			<Sample>Exemplo: IV</Sample>
+			<Row>8</Row>
+			<Col>3</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Páginas:</Label>
+			<DataTag>b:Pages</DataTag>
+			<Sample>Exemplo: 50-62</Sample>
+			<Row>8</Row>
+			<Col>5</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Editor:</Label>
+			<DataTag>b:Author/b:Editor/b:NameList</DataTag>
+			<Sample>Exemplo: Dickens, Charles; Hemingway, Ernest</Sample>
+			<ToString>Author2String.XSL</ToString>
+			<ToXML>Author2XML.XSL</ToXML>
+			<Author>Yes</Author>
+			<Row>9</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Tradutor:</Label>
+			<!--optional -->
+			<DataTag>b:Author/b:Translator/b:NameList</DataTag>
+			<Sample>Exemplo: Dickens, Charles; Hemingway, Ernest</Sample>
+			<ToString>Author2String.XSL</ToString>
+			<ToXML>Author2XML.XSL</ToXML>
+			<Author>Yes</Author>
+			<Row>10</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Título curto:</Label>
+			<DataTag>b:ShortTitle</DataTag>
+			<TitlePriority>2</TitlePriority>
+			<Sample>Exemplo: Bibliografias</Sample>
+			<Row>11</Row>
+			<Col>1</Col>
+			<Width>3</Width>
+		</Tag>
+		<Tag>
+			<Label>Número padrão:</Label>
+			<DataTag>b:StandardNumber</DataTag>
+			<Sample>Exemplo: ISBN/ISSN</Sample>
+			<Row>11</Row>
+			<Col>5</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Edição:</Label>
+			<DataTag>b:Edition</DataTag>
+			<Sample>Exemplo: 2 ª Edição</Sample>
+			<Row>12</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Comentários:</Label>
+			<DataTag>b:Comments</DataTag>
+			<Sample>Inserir comentários sobre esta fonte.</Sample>
+			<Row>13</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+	</Source>
+	<Source type="JournalArticle" display="Artigo em um jornal">
+		<Tag>
+			<Label>Autor:</Label>
+			<DataTag>b:Author/b:Author/b:NameList</DataTag>
+			<Sample>Exemplo: Dickens, Charles; Hemingway, Ernest</Sample>
+			<ToString>Author2String.XSL</ToString>
+			<ToXML>Author2XML.XSL</ToXML>
+			<Author>Yes</Author>
+			<OrgAuthor>Yes</OrgAuthor>
+			<Row>1</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Título:</Label>
+			<DataTag>b:Title</DataTag>
+			<TitlePriority>1</TitlePriority>
+			<Sample>Exemplo: Como escrever bibliografias</Sample>
+			<Row>3</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Nome do jornal:</Label>
+			<DataTag>b:JournalName</DataTag>
+			<Sample>Exemplo: Adventure Works Monthly</Sample>
+			<Row>4</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Editor:</Label>
+			<DataTag>b:Publisher</DataTag>
+			<Sample>Exemplo: Adventure Works Press</Sample>
+			<Row>5</Row>
+			<Col>1</Col>
+			<Width>3</Width>
+		</Tag>
+		<Tag>
+			<Label>Cidade:</Label>
+			<DataTag>b:City</DataTag>
+			<Sample>Exemplo: Chicago</Sample>
+			<Row>5</Row>
+			<Col>5</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Ano:</Label>
+			<DataTag>b:Year</DataTag>
+			<Sample>Exemplo: 2006</Sample>
+			<Row>6</Row>
+			<Col>1</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Mês:</Label>
+			<DataTag>b:Month</DataTag>
+			<Sample>Exemplo: janeiro</Sample>
+			<Row>6</Row>
+			<Col>3</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Dia:</Label>
+			<DataTag>b:Day</DataTag>
+			<Sample>Exemplo: 1</Sample>
+			<Row>6</Row>
+			<Col>5</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Volume:</Label>
+			<!--optional -->
+			<DataTag>b:Volume</DataTag>
+			<Sample>Exemplo: III</Sample>
+			<Row>7</Row>
+			<Col>1</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Edição:</Label>
+			<!--optional -->
+			<DataTag>b:Issue</DataTag>
+			<Sample>Exemplo: 12</Sample>
+			<Row>7</Row>
+			<Col>3</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Páginas:</Label>
+			<DataTag>b:Pages</DataTag>
+			<Sample>Exemplo: 50-62</Sample>
+			<Row>7</Row>
+			<Col>5</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Editor:</Label>
+			<DataTag>b:Author/b:Editor/b:NameList</DataTag>
+			<Sample>Exemplo: Dickens, Charles; Hemingway, Ernest</Sample>
+			<ToString>Author2String.XSL</ToString>
+			<ToXML>Author2XML.XSL</ToXML>
+			<Author>Yes</Author>
+			<Row>8</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Título curto:</Label>
+			<DataTag>b:ShortTitle</DataTag>
+			<TitlePriority>2</TitlePriority>
+			<Sample>Exemplo: Bibliografias</Sample>
+			<Row>9</Row>
+			<Col>1</Col>
+			<Width>3</Width>
+		</Tag>
+		<Tag>
+			<Label>Número padrão:</Label>
+			<DataTag>b:StandardNumber</DataTag>
+			<Sample>Exemplo: ISBN/ISSN</Sample>
+			<Row>9</Row>
+			<Col>5</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Comentários:</Label>
+			<DataTag>b:Comments</DataTag>
+			<Sample>Inserir comentários sobre esta fonte.</Sample>
+			<Row>10</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+	</Source>
+	<Source type="ArticleInAPeriodical" display="Artigo em periódico">
+		<Tag>
+			<Label>Autor:</Label>
+			<DataTag>b:Author/b:Author/b:NameList</DataTag>
+			<Sample>Exemplo: Dickens, Charles; Hemingway, Ernest</Sample>
+			<ToString>Author2String.XSL</ToString>
+			<ToXML>Author2XML.XSL</ToXML>
+			<Author>Yes</Author>
+			<OrgAuthor>Yes</OrgAuthor>
+			<Row>1</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Título:</Label>
+			<DataTag>b:Title</DataTag>
+			<TitlePriority>1</TitlePriority>
+			<Sample>Exemplo: Como escrever bibliografias</Sample>
+			<Row>3</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Título do Periódico:</Label>
+			<DataTag>b:PeriodicalTitle</DataTag>
+			<TitlePriority>3</TitlePriority>
+			<Sample>Exemplo: Adventure Works Daily</Sample>
+			<Row>4</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Editor:</Label>
+			<DataTag>b:Publisher</DataTag>
+			<Sample>Exemplo: Adventure Works Press</Sample>
+			<Row>5</Row>
+			<Col>1</Col>
+			<Width>3</Width>
+		</Tag>
+		<Tag>
+			<Label>Cidade:</Label>
+			<DataTag>b:City</DataTag>
+			<Sample>Exemplo: Chicago</Sample>
+			<Row>5</Row>
+			<Col>5</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Ano:</Label>
+			<DataTag>b:Year</DataTag>
+			<Sample>Exemplo: 2006</Sample>
+			<Row>6</Row>
+			<Col>1</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Mês:</Label>
+			<DataTag>b:Month</DataTag>
+			<Sample>Exemplo: janeiro</Sample>
+			<Row>6</Row>
+			<Col>3</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Dia:</Label>
+			<DataTag>b:Day</DataTag>
+			<Sample>Exemplo: 1</Sample>
+			<Row>6</Row>
+			<Col>5</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Volume:</Label>
+			<!--optional -->
+			<DataTag>b:Volume</DataTag>
+			<Sample>Exemplo: III</Sample>
+			<Row>7</Row>
+			<Col>1</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Edição:</Label>
+			<!--optional -->
+			<DataTag>b:Issue</DataTag>
+			<Sample>Exemplo: 12</Sample>
+			<Row>7</Row>
+			<Col>3</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Páginas:</Label>
+			<DataTag>b:Pages</DataTag>
+			<Sample>Exemplo: 50-62</Sample>
+			<Row>7</Row>
+			<Col>5</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Editor:</Label>
+			<DataTag>b:Author/b:Editor/b:NameList</DataTag>
+			<Sample>Exemplo: Dickens, Charles; Hemingway, Ernest</Sample>
+			<ToString>Author2String.XSL</ToString>
+			<ToXML>Author2XML.XSL</ToXML>
+			<Author>Yes</Author>
+			<Row>8</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Título curto:</Label>
+			<DataTag>b:ShortTitle</DataTag>
+			<TitlePriority>2</TitlePriority>
+			<Sample>Exemplo: Bibliografias</Sample>
+			<Row>9</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Edição:</Label>
+			<!--optional -->
+			<DataTag>b:Edition</DataTag>
+			<Sample>Exemplo: Fim de semana</Sample>
+			<Row>10</Row>
+			<Col>1</Col>
+			<Width>3</Width>
+		</Tag>
+		<Tag>
+			<Label>Número padrão:</Label>
+			<DataTag>b:StandardNumber</DataTag>
+			<Sample>Exemplo: ISBN/ISSN</Sample>
+			<Row>10</Row>
+			<Col>5</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Comentários:</Label>
+			<DataTag>b:Comments</DataTag>
+			<Sample>Inserir comentários sobre esta fonte.</Sample>
+			<Row>11</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+	</Source>
+	<Source type="ConferenceProceedings" display="Procedimentos da conferência">
+		<Tag>
+			<Label>Autor:</Label>
+			<DataTag>b:Author/b:Author/b:NameList</DataTag>
+			<Sample>Exemplo: Dickens, Charles; Hemingway, Ernest</Sample>
+			<ToString>Author2String.XSL</ToString>
+			<ToXML>Author2XML.XSL</ToXML>
+			<Author>Yes</Author>
+			<OrgAuthor>Yes</OrgAuthor>
+			<Row>1</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Título:</Label>
+			<DataTag>b:Title</DataTag>
+			<TitlePriority>1</TitlePriority>
+			<Sample>Exemplo: Como escrever bibliografias</Sample>
+			<Row>3</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Nome da publicação da conferência:</Label>
+			<DataTag>b:ConferenceName</DataTag>
+			<Sample>Exemplo: Adventure Works Conference</Sample>
+			<Row>4</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Editor:</Label>
+			<DataTag>b:Publisher</DataTag>
+			<Sample>Exemplo: Adventure Works Press</Sample>
+			<Row>5</Row>
+			<Col>1</Col>
+			<Width>3</Width>
+		</Tag>
+		<Tag>
+			<Label>Cidade:</Label>
+			<DataTag>b:City</DataTag>
+			<Sample>Exemplo: Chicago</Sample>
+			<Row>5</Row>
+			<Col>5</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Volume:</Label>
+			<!--optional -->
+			<DataTag>b:Volume</DataTag>
+			<Sample>Exemplo: III</Sample>
+			<Row>6</Row>
+			<Col>1</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Ano:</Label>
+			<DataTag>b:Year</DataTag>
+			<Sample>Exemplo: 2006</Sample>
+			<Row>6</Row>
+			<Col>3</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Páginas:</Label>
+			<DataTag>b:Pages</DataTag>
+			<Sample>Exemplo: 50-62</Sample>
+			<Row>6</Row>
+			<Col>5</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Editor:</Label>
+			<DataTag>b:Author/b:Editor/b:NameList</DataTag>
+			<Sample>Exemplo: Dickens, Charles; Hemingway, Ernest</Sample>
+			<ToString>Author2String.XSL</ToString>
+			<ToXML>Author2XML.XSL</ToXML>
+			<Author>Yes</Author>
+			<Row>7</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Título curto:</Label>
+			<DataTag>b:ShortTitle</DataTag>
+			<TitlePriority>2</TitlePriority>
+			<Sample>Exemplo: Bibliografias</Sample>
+			<Row>8</Row>
+			<Col>1</Col>
+			<Width>3</Width>
+		</Tag>
+		<Tag>
+			<Label>Número padrão:</Label>
+			<DataTag>b:StandardNumber</DataTag>
+			<Sample>Exemplo: ISBN</Sample>
+			<Row>8</Row>
+			<Col>5</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Comentários:</Label>
+			<DataTag>b:Comments</DataTag>
+			<Sample>Inserir comentários sobre esta fonte.</Sample>
+			<Row>9</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+	</Source>
+	<Source type="Report" display="Relatório">
+		<Tag>
+			<Label>Autor:</Label>
+			<DataTag>b:Author/b:Author/b:NameList</DataTag>
+			<Sample>Exemplo: Dickens, Charles; Hemingway, Ernest</Sample>
+			<ToString>Author2String.XSL</ToString>
+			<ToXML>Author2XML.XSL</ToXML>
+			<Author>Yes</Author>
+			<OrgAuthor>Yes</OrgAuthor>
+			<Row>1</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Título:</Label>
+			<DataTag>b:Title</DataTag>
+			<TitlePriority>1</TitlePriority>
+			<Sample>Exemplo: Como escrever bibliografias</Sample>
+			<Row>3</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Instituição:</Label>
+			<DataTag>b:Institution</DataTag>
+			<Sample>Exemplo: Universidade de Maple</Sample>
+			<Row>4</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Departamento:</Label>
+			<DataTag>b:Department</DataTag>
+			<Sample>Exemplo: Departamento de Matemática</Sample>
+			<Row>5</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Editor:</Label>
+			<DataTag>b:Publisher</DataTag>
+			<Sample>Exemplo: Adventure Works Press</Sample>
+			<Row>6</Row>
+			<Col>1</Col>
+			<Width>3</Width>
+		</Tag>
+		<Tag>
+			<Label>Cidade:</Label>
+			<DataTag>b:City</DataTag>
+			<Sample>Exemplo: Chicago</Sample>
+			<Row>6</Row>
+			<Col>5</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Tipo de relatório:</Label>
+			<DataTag>b:ThesisType</DataTag>
+			<Sample>Exemplo: Tese de Doutorado</Sample>
+			<Row>7</Row>
+			<Col>1</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Ano:</Label>
+			<DataTag>b:Year</DataTag>
+			<Sample>Exemplo: 2006</Sample>
+			<Row>7</Row>
+			<Col>3</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Páginas:</Label>
+			<DataTag>b:Pages</DataTag>
+			<Sample>Exemplo: 152</Sample>
+			<Row>7</Row>
+			<Col>5</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Título curto:</Label>
+			<DataTag>b:ShortTitle</DataTag>
+			<TitlePriority>2</TitlePriority>
+			<Sample>Exemplo: Bibliografias</Sample>
+			<Row>8</Row>
+			<Col>1</Col>
+			<Width>3</Width>
+		</Tag>
+		<Tag>
+			<Label>Número padrão:</Label>
+			<DataTag>b:StandardNumber</DataTag>
+			<Sample>Exemplo: ISBN/ISSN</Sample>
+			<Row>8</Row>
+			<Col>5</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Comentários:</Label>
+			<DataTag>b:Comments</DataTag>
+			<Sample>Inserir comentários sobre esta fonte.</Sample>
+			<Row>9</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+	</Source>
+	<Source type="InternetSite" display="Site">
+		<Tag>
+			<Label>Autor:</Label>
+			<DataTag>b:Author/b:Author/b:NameList</DataTag>
+			<Sample>Exemplo: Dickens, Charles; Hemingway, Ernest</Sample>
+			<ToString>Author2String.XSL</ToString>
+			<ToXML>Author2XML.XSL</ToXML>
+			<Author>Yes</Author>
+			<OrgAuthor>Yes</OrgAuthor>
+			<Row>1</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Nome da página da Web:</Label>
+			<DataTag>b:Title</DataTag>
+			<TitlePriority>1</TitlePriority>
+			<Sample>Exemplo: Sobre nós: A. Datum Corporation</Sample>
+			<Row>3</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Nome do site:</Label>
+			<DataTag>b:InternetSiteTitle</DataTag>
+			<TitlePriority>3</TitlePriority>
+			<Sample>Exemplo: A. Site da Datum Corporation</Sample>
+			<Row>4</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>URL:</Label>
+			<DataTag>b:URL</DataTag>
+			<Sample>Exemplo: http://www.adatum.com</Sample>
+			<Row>5</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Nome produtor:</Label>
+			<DataTag>b:Author/b:ProducerName/b:NameList</DataTag>
+			<Sample>Exemplo: Dickens, Charles; Hemingway, Ernest</Sample>
+			<ToString>Author2String.XSL</ToString>
+			<ToXML>Author2XML.XSL</ToXML>
+			<Author>Yes</Author>
+			<Row>6</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Empresa de produção:</Label>
+			<DataTag>b:ProductionCompany</DataTag>
+			<Sample>Exemplo: Adventure Works Productions</Sample>
+			<Row>7</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Ano:</Label>
+			<DataTag>b:Year</DataTag>
+			<Sample>Exemplo: 2006</Sample>
+			<Row>8</Row>
+			<Col>1</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Mês:</Label>
+			<DataTag>b:Month</DataTag>
+			<Sample>Exemplo: janeiro</Sample>
+			<Row>8</Row>
+			<Col>3</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Dia:</Label>
+			<DataTag>b:Day</DataTag>
+			<Sample>Exemplo: 1</Sample>
+			<Row>8</Row>
+			<Col>5</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Ano acessado:</Label>
+			<DataTag>b:YearAccessed</DataTag>
+			<Sample>Exemplo: 2006</Sample>
+			<Row>9</Row>
+			<Col>1</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Mês acessado:</Label>
+			<DataTag>b:MonthAccessed</DataTag>
+			<Sample>Exemplo: janeiro</Sample>
+			<Row>9</Row>
+			<Col>3</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Dia acessado:</Label>
+			<DataTag>b:DayAccessed</DataTag>
+			<Sample>Exemplo: 1</Sample>
+			<Row>9</Row>
+			<Col>5</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Editor:</Label>
+			<DataTag>b:Author/b:Editor/b:NameList</DataTag>
+			<Sample>Exemplo: Dickens, Charles; Hemingway, Ernest</Sample>
+			<ToString>Author2String.XSL</ToString>
+			<ToXML>Author2XML.XSL</ToXML>
+			<Author>Yes</Author>
+			<Row>10</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Título curto:</Label>
+			<DataTag>b:ShortTitle</DataTag>
+			<TitlePriority>2</TitlePriority>
+			<Sample>Exemplo: Bibliografias</Sample>
+			<Row>11</Row>
+			<Col>1</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Versão:</Label>
+			<DataTag>b:Version</DataTag>
+			<Sample>Exemplo: 1.5</Sample>
+			<Row>11</Row>
+			<Col>3</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Número padrão:</Label>
+			<DataTag>b:StandardNumber</DataTag>
+			<Sample>Exemplo: ISBN/ISSN</Sample>
+			<Row>11</Row>
+			<Col>5</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Comentários:</Label>
+			<DataTag>b:Comments</DataTag>
+			<Sample>Inserir comentários sobre esta fonte.</Sample>
+			<Row>12</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+	</Source>
+	<Source type="DocumentFromInternetSite" display="Documento do site">
+		<Tag>
+			<Label>Autor:</Label>
+			<DataTag>b:Author/b:Author/b:NameList</DataTag>
+			<Sample>Exemplo: Dickens, Charles; Hemingway, Ernest</Sample>
+			<ToString>Author2String.XSL</ToString>
+			<ToXML>Author2XML.XSL</ToXML>
+			<Author>Yes</Author>
+			<OrgAuthor>Yes</OrgAuthor>
+			<Row>1</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Nome da página da Web:</Label>
+			<DataTag>b:Title</DataTag>
+			<TitlePriority>1</TitlePriority>
+			<Sample>Exemplo: A. Datum Corporation</Sample>
+			<Row>3</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Nome do site:</Label>
+			<DataTag>b:InternetSiteTitle</DataTag>
+			<TitlePriority>3</TitlePriority>
+			<Sample>Exemplo: Litware, Inc.</Sample>
+			<Row>4</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>URL:</Label>
+			<DataTag>b:URL</DataTag>
+			<Sample>Exemplo: http://www.adatum.com</Sample>
+			<Row>5</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Nome produtor:</Label>
+			<DataTag>b:Author/b:ProducerName/b:NameList</DataTag>
+			<Sample>Exemplo: Dickens, Charles; Hemingway, Ernest</Sample>
+			<ToString>Author2String.XSL</ToString>
+			<ToXML>Author2XML.XSL</ToXML>
+			<Author>Yes</Author>
+			<Row>6</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Empresa de produção:</Label>
+			<DataTag>b:ProductionCompany</DataTag>
+			<Sample>Exemplo: Adventure Works Productions</Sample>
+			<Row>7</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Ano:</Label>
+			<DataTag>b:Year</DataTag>
+			<Sample>Exemplo: 2006</Sample>
+			<Row>8</Row>
+			<Col>1</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Mês:</Label>
+			<DataTag>b:Month</DataTag>
+			<Sample>Exemplo: janeiro</Sample>
+			<Row>8</Row>
+			<Col>3</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Dia:</Label>
+			<DataTag>b:Day</DataTag>
+			<Sample>Exemplo: 1</Sample>
+			<Row>8</Row>
+			<Col>5</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Ano acessado:</Label>
+			<DataTag>b:YearAccessed</DataTag>
+			<Sample>Exemplo: 2006</Sample>
+			<Row>9</Row>
+			<Col>1</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Mês acessado:</Label>
+			<DataTag>b:MonthAccessed</DataTag>
+			<Sample>Exemplo: janeiro</Sample>
+			<Row>9</Row>
+			<Col>3</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Dia acessado:</Label>
+			<DataTag>b:DayAccessed</DataTag>
+			<Sample>Exemplo: 1</Sample>
+			<Row>9</Row>
+			<Col>5</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Editor:</Label>
+			<DataTag>b:Author/b:Editor/b:NameList</DataTag>
+			<Sample>Exemplo: Dickens, Charles; Hemingway, Ernest</Sample>
+			<ToString>Author2String.XSL</ToString>
+			<ToXML>Author2XML.XSL</ToXML>
+			<Author>Yes</Author>
+			<Row>10</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Título curto:</Label>
+			<DataTag>b:ShortTitle</DataTag>
+			<TitlePriority>2</TitlePriority>
+			<Sample>Exemplo: Bibliografias</Sample>
+			<Row>11</Row>
+			<Col>1</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Versão:</Label>
+			<DataTag>b:Version</DataTag>
+			<Sample>Exemplo: 1.5</Sample>
+			<Row>11</Row>
+			<Col>3</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Número padrão:</Label>
+			<DataTag>b:StandardNumber</DataTag>
+			<Sample>Exemplo: ISBN/ISSN</Sample>
+			<Row>11</Row>
+			<Col>5</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Comentários:</Label>
+			<DataTag>b:Comments</DataTag>
+			<Sample>Inserir comentários sobre esta fonte.</Sample>
+			<Row>12</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+	</Source>
+	<Source type="ElectronicSource" display="Fonte eletrônica">
+		<Tag>
+			<Label>Autor:</Label>
+			<DataTag>b:Author/b:Author/b:NameList</DataTag>
+			<Sample>Exemplo: Dickens, Charles; Hemingway, Ernest</Sample>
+			<ToString>Author2String.XSL</ToString>
+			<ToXML>Author2XML.XSL</ToXML>
+			<Author>Yes</Author>
+			<OrgAuthor>Yes</OrgAuthor>
+			<Row>1</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Título:</Label>
+			<DataTag>b:Title</DataTag>
+			<TitlePriority>1</TitlePriority>
+			<Sample>Exemplo: Como escrever bibliografias</Sample>
+			<Row>3</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Título da publicação:</Label>
+			<DataTag>b:PublicationTitle</DataTag>
+			<TitlePriority>3</TitlePriority>
+			<Sample>Exemplo: A publicação da bibliografia</Sample>
+			<Row>4</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Cidade:</Label>
+			<DataTag>b:City</DataTag>
+			<Sample>Exemplo: Chicago</Sample>
+			<Row>5</Row>
+			<Col>1</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Estado/Província:</Label>
+			<DataTag>b:StateProvince</DataTag>
+			<Sample>Exemplo: Washington</Sample>
+			<Row>5</Row>
+			<Col>3</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>País/Região:</Label>
+			<DataTag>b:CountryRegion</DataTag>
+			<Sample>Exemplo: Estados Unidos da América</Sample>
+			<Row>5</Row>
+			<Col>5</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Nome produtor:</Label>
+			<DataTag>b:Author/b:ProducerName/b:NameList</DataTag>
+			<Sample>Exemplo: Dickens, Charles; Hemingway, Ernest</Sample>
+			<ToString>Author2String.XSL</ToString>
+			<ToXML>Author2XML.XSL</ToXML>
+			<Author>Yes</Author>
+			<Row>6</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Empresa de produção:</Label>
+			<DataTag>b:ProductionCompany</DataTag>
+			<Sample>Exemplo: Adventure Works Productions</Sample>
+			<Row>7</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Editor:</Label>
+			<DataTag>b:Author/b:Editor/b:NameList</DataTag>
+			<Sample>Exemplo: Dickens, Charles; Hemingway, Ernest</Sample>
+			<ToString>Author2String.XSL</ToString>
+			<ToXML>Author2XML.XSL</ToXML>
+			<Author>Yes</Author>
+			<Row>8</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Tradutor:</Label>
+			<DataTag>b:Author/b:Translator/b:NameList</DataTag>
+			<Sample>Exemplo: Dickens, Charles; Hemingway, Ernest</Sample>
+			<ToString>Author2String.XSL</ToString>
+			<ToXML>Author2XML.XSL</ToXML>
+			<Author>Yes</Author>
+			<Row>9</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Ano:</Label>
+			<DataTag>b:Year</DataTag>
+			<Sample>Exemplo: 2006</Sample>
+			<Row>10</Row>
+			<Col>1</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Mês:</Label>
+			<DataTag>b:Month</DataTag>
+			<Sample>Exemplo: janeiro</Sample>
+			<Row>10</Row>
+			<Col>3</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Dia:</Label>
+			<DataTag>b:Day</DataTag>
+			<Sample>Exemplo: 1</Sample>
+			<Row>10</Row>
+			<Col>5</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Meio:</Label>
+			<DataTag>b:Medium</DataTag>
+			<Sample>Exemplo: Documento</Sample>
+			<Row>11</Row>
+			<Col>1</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Volume:</Label>
+			<DataTag>b:Volume</DataTag>
+			<Sample>Exemplo: III</Sample>
+			<Row>11</Row>
+			<Col>3</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Edição:</Label>
+			<DataTag>b:Edition</DataTag>
+			<Sample>Exemplo: 1.5</Sample>
+			<Row>11</Row>
+			<Col>5</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Editor:</Label>
+			<DataTag>b:Publisher</DataTag>
+			<Sample>Exemplo: Adventure Works Press</Sample>
+			<Row>12</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Título curto:</Label>
+			<DataTag>b:ShortTitle</DataTag>
+			<TitlePriority>2</TitlePriority>
+			<Sample>Exemplo: Bibliografias</Sample>
+			<Row>13</Row>
+			<Col>1</Col>
+			<Width>3</Width>
+		</Tag>
+		<Tag>
+			<Label>Número padrão:</Label>
+			<DataTag>b:StandardNumber</DataTag>
+			<Sample>Exemplo: ISBN/ISSN</Sample>
+			<Row>13</Row>
+			<Col>5</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Comentários:</Label>
+			<DataTag>b:Comments</DataTag>
+			<Sample>Inserir comentários sobre esta fonte.</Sample>
+			<Row>14</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+	</Source>
+	<Source type="Art" display="Arte">
+		<Tag>
+			<Label>Artista:</Label>
+			<DataTag>b:Author/b:Artist/b:NameList</DataTag>
+			<Sample>Exemplo: Dickens, Charles; Hemingway, Ernest</Sample>
+			<ToString>Author2String.XSL</ToString>
+			<ToXML>Author2XML.XSL</ToXML>
+			<Author>Yes</Author>
+			<Row>1</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Título:</Label>
+			<DataTag>b:Title</DataTag>
+			<TitlePriority>1</TitlePriority>
+			<Sample>Exemplo: Como escrever bibliografias</Sample>
+			<Row>2</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Instituição:</Label>
+			<DataTag>b:Institution</DataTag>
+			<Sample>Exemplo: Adventure Works Art Gallery</Sample>
+			<Row>3</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Título da publicação:</Label>
+			<DataTag>b:PublicationTitle</DataTag>
+			<TitlePriority>3</TitlePriority>
+			<Sample>Exemplo: A publicação da bibliografia</Sample>
+			<Row>4</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Cidade:</Label>
+			<DataTag>b:City</DataTag>
+			<Sample>Exemplo: Chicago</Sample>
+			<Row>5</Row>
+			<Col>1</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Estado/Província:</Label>
+			<DataTag>b:StateProvince</DataTag>
+			<Sample>Exemplo: Washington</Sample>
+			<Row>5</Row>
+			<Col>3</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>País/Região:</Label>
+			<DataTag>b:CountryRegion</DataTag>
+			<Sample>Exemplo: Estados Unidos da América</Sample>
+			<Row>5</Row>
+			<Col>5</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Editor:</Label>
+			<DataTag>b:Publisher</DataTag>
+			<Sample>Exemplo: Adventure Works Press</Sample>
+			<Row>6</Row>
+			<Col>1</Col>
+			<Width>3</Width>
+		</Tag>
+		<Tag>
+			<Label>Ano:</Label>
+			<DataTag>b:Year</DataTag>
+			<Sample>Exemplo: 2006</Sample>
+			<Row>6</Row>
+			<Col>5</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Título curto:</Label>
+			<DataTag>b:ShortTitle</DataTag>
+			<TitlePriority>2</TitlePriority>
+			<Sample>Exemplo: Bibliografias</Sample>
+			<Row>7</Row>
+			<Col>1</Col>
+			<Width>3</Width>
+		</Tag>
+		<Tag>
+			<Label>Páginas:</Label>
+			<DataTag>b:Pages</DataTag>
+			<Sample>Exemplo: 50-62</Sample>
+			<Row>7</Row>
+			<Col>5</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Comentários:</Label>
+			<DataTag>b:Comments</DataTag>
+			<Sample>Inserir comentários sobre esta fonte.</Sample>
+			<Row>8</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+	</Source>
+	<Source type="SoundRecording" display="Gravação de som">
+		<Tag>
+			<Label>Compositor:</Label>
+			<DataTag>b:Author/b:Composer/b:NameList</DataTag>
+			<Sample>Exemplo: Dickens, Charles; Hemingway, Ernest</Sample>
+			<ToString>Author2String.XSL</ToString>
+			<ToXML>Author2XML.XSL</ToXML>
+			<Author>Yes</Author>
+			<Row>1</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Condutor:</Label>
+			<DataTag>b:Author/b:Conductor/b:NameList</DataTag>
+			<Sample>Exemplo: Dickens, Charles; Hemingway, Ernest</Sample>
+			<ToString>Author2String.XSL</ToString>
+			<ToXML>Author2XML.XSL</ToXML>
+			<Author>Yes</Author>
+			<Row>2</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Intérprete:</Label>
+			<DataTag>b:Author/b:Performer/b:NameList</DataTag>
+			<Sample>Exemplo: Dickens, Charles; Hemingway, Ernest</Sample>
+			<ToString>Author2String.XSL</ToString>
+			<ToXML>Author2XML.XSL</ToXML>
+			<Author>Yes</Author>
+			<OrgAuthor>Yes</OrgAuthor>
+			<Row>3</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Artista:</Label>
+			<DataTag>b:Author/b:Artist/b:NameList</DataTag>
+			<Sample>Exemplo: Dickens, Charles; Hemingway, Ernest</Sample>
+			<ToString>Author2String.XSL</ToString>
+			<ToXML>Author2XML.XSL</ToXML>
+			<Author>Yes</Author>
+			<Row>5</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Título:</Label>
+			<DataTag>b:Title</DataTag>
+			<TitlePriority>1</TitlePriority>
+			<Sample>Exemplo: Como escrever bibliografias</Sample>
+			<Row>6</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Título do álbum:</Label>
+			<DataTag>b:AlbumTitle</DataTag>
+			<TitlePriority>3</TitlePriority>
+			<Sample>Exemplo: Como escrever bibliografias</Sample>
+			<Row>7</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		 <Tag>
+			<Label>Cidade:</Label>
+			<DataTag>b:City</DataTag>
+			<Sample>Exemplo: Chicago</Sample>
+			<Row>8</Row>
+			<Col>1</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Estado/Província:</Label>
+			<DataTag>b:StateProvince</DataTag>
+			<Sample>Exemplo: Washington</Sample>
+			<Row>8</Row>
+			<Col>3</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>País/Região:</Label>
+			<DataTag>b:CountryRegion</DataTag>
+			<Sample>Exemplo: Estados Unidos da América</Sample>
+			<Row>8</Row>
+			<Col>5</Col>
+			<Width>1</Width>
+		</Tag>
+	 <Tag>
+			<Label>Nome produtor:</Label>
+			<DataTag>b:Author/b:ProducerName/b:NameList</DataTag>
+			<Sample>Exemplo: Dickens, Charles; Hemingway, Ernest</Sample>
+			<ToString>Author2String.XSL</ToString>
+			<ToXML>Author2XML.XSL</ToXML>
+			<Author>Yes</Author>
+			<Row>9</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Empresa de produção:</Label>
+			<DataTag>b:ProductionCompany</DataTag>
+			<Sample>Exemplo: Adventure Works Productions</Sample>
+			<Row>10</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Ano:</Label>
+			<DataTag>b:Year</DataTag>
+			<Sample>Exemplo: 2006</Sample>
+			<Row>11</Row>
+			<Col>1</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Meio:</Label>
+			<DataTag>b:Medium</DataTag>
+			<Sample>Exemplo: Compact Disc</Sample>
+			<Row>11</Row>
+			<Col>3</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Número da registro:</Label>
+			<DataTag>b:RecordingNumber</DataTag>
+			<Sample>Exemplo: 123456</Sample>
+			<Row>11</Row>
+			<Col>5</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Título curto:</Label>
+			<DataTag>b:ShortTitle</DataTag>
+			<TitlePriority>2</TitlePriority>
+			<Sample>Exemplo: Bibliografias</Sample>
+			<Row>12</Row>
+			<Col>1</Col>
+			<Width>3</Width>
+		</Tag>
+		<Tag>
+			<Label>Número padrão:</Label>
+			<DataTag>b:StandardNumber</DataTag>
+			<Sample>Exemplo: ISBN/ISSN</Sample>
+			<Row>12</Row>
+			<Col>5</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Comentários:</Label>
+			<DataTag>b:Comments</DataTag>
+			<Sample>Inserir comentários sobre esta fonte.</Sample>
+			<Row>13</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+	</Source>
+	<Source type="Performance" display="Desempenho">
+		<Tag>
+			<Label>Título:</Label>
+			<DataTag>b:Title</DataTag>
+			<TitlePriority>1</TitlePriority>
+			<Sample>Exemplo: Como escrever bibliografias</Sample>
+			<Row>1</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Escritor:</Label>
+			<DataTag>b:Author/b:Writer/b:NameList</DataTag>
+			<Sample>Exemplo: Dickens, Charles; Hemingway, Ernest</Sample>
+			<ToString>Author2String.XSL</ToString>
+			<ToXML>Author2XML.XSL</ToXML>
+			<Author>Yes</Author>
+			<Row>2</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Intérprete:</Label>
+			<DataTag>b:Author/b:Performer/b:NameList</DataTag>
+			<Sample>Exemplo: Dickens, Charles; Hemingway, Ernest</Sample>
+			<ToString>Author2String.XSL</ToString>
+			<ToXML>Author2XML.XSL</ToXML>
+			<Author>Yes</Author>
+			<OrgAuthor>Yes</OrgAuthor>
+			<Row>3</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Diretor:</Label>
+			<DataTag>b:Author/b:Director/b:NameList</DataTag>
+			<Sample>Exemplo: Dickens, Charles; Hemingway, Ernest</Sample>
+			<ToString>Author2String.XSL</ToString>
+			<ToXML>Author2XML.XSL</ToXML>
+			<Author>Yes</Author>
+			<Row>5</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Teatro:</Label>
+			<DataTag>b:Theater</DataTag>
+			<Sample>Exemplo: Adventure Works Theater</Sample>
+			<Row>6</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Cidade:</Label>
+			<DataTag>b:City</DataTag>
+			<Sample>Exemplo: Chicago</Sample>
+			<Row>7</Row>
+			<Col>1</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Estado/Província:</Label>
+			<DataTag>b:StateProvince</DataTag>
+			<Sample>Exemplo: Washington</Sample>
+			<Row>7</Row>
+			<Col>3</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>País/Região:</Label>
+			<DataTag>b:CountryRegion</DataTag>
+			<Sample>Exemplo: Estados Unidos da América</Sample>
+			<Row>7</Row>
+			<Col>5</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Nome produtor:</Label>
+			<DataTag>b:Author/b:ProducerName/b:NameList</DataTag>
+			<Sample>Exemplo: Dickens, Charles; Hemingway, Ernest</Sample>
+			<ToString>Author2String.XSL</ToString>
+			<ToXML>Author2XML.XSL</ToXML>
+			<Author>Yes</Author>
+			<Row>8</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Empresa de produção:</Label>
+			<DataTag>b:ProductionCompany</DataTag>
+			<Sample>Exemplo: Adventure Works Productions</Sample>
+			<Row>9</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Ano:</Label>
+			<DataTag>b:Year</DataTag>
+			<Sample>Exemplo: 2006</Sample>
+			<Row>10</Row>
+			<Col>1</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Mês:</Label>
+			<DataTag>b:Month</DataTag>
+			<Sample>Exemplo: janeiro</Sample>
+			<Row>10</Row>
+			<Col>3</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Dia:</Label>
+			<DataTag>b:Day</DataTag>
+			<Sample>Exemplo: 1</Sample>
+			<Row>10</Row>
+			<Col>5</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Título curto:</Label>
+			<DataTag>b:ShortTitle</DataTag>
+			<TitlePriority>2</TitlePriority>
+			<Sample>Exemplo: Bibliografias</Sample>
+			<Row>11</Row>
+			<Col>1</Col>
+			<Width>3</Width>
+		</Tag>
+		<Tag>
+			<Label>Número padrão:</Label>
+			<DataTag>b:StandardNumber</DataTag>
+			<Sample>Exemplo: ISBN/ISSN</Sample>
+			<Row>11</Row>
+			<Col>5</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Comentários:</Label>
+			<DataTag>b:Comments</DataTag>
+			<Sample>Inserir comentários sobre esta fonte.</Sample>
+			<Row>12</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+	</Source>
+	<Source type="Film" display="Filme">
+		<Tag>
+			<Label>Título:</Label>
+			<DataTag>b:Title</DataTag>
+			<TitlePriority>1</TitlePriority>
+			<Sample>Exemplo: Como escrever bibliografias</Sample>
+			<Row>1</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Escritor:</Label>
+			<DataTag>b:Author/b:Writer/b:NameList</DataTag>
+			<Sample>Exemplo: Dickens, Charles; Hemingway, Ernest</Sample>
+			<ToString>Author2String.XSL</ToString>
+			<ToXML>Author2XML.XSL</ToXML>
+			<Author>Yes</Author>
+			<Row>2</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Intérprete:</Label>
+			<DataTag>b:Author/b:Performer/b:NameList</DataTag>
+			<Sample>Exemplo: Dickens, Charles; Hemingway, Ernest</Sample>
+			<ToString>Author2String.XSL</ToString>
+			<ToXML>Author2XML.XSL</ToXML>
+			<Author>Yes</Author>
+			<OrgAuthor>Yes</OrgAuthor>
+			<Row>3</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Diretor:</Label>
+			<DataTag>b:Author/b:Director/b:NameList</DataTag>
+			<Sample>Exemplo: Dickens, Charles; Hemingway, Ernest</Sample>
+			<ToString>Author2String.XSL</ToString>
+			<ToXML>Author2XML.XSL</ToXML>
+			<Author>Yes</Author>
+			<Row>5</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>País/Região:</Label>
+			<DataTag>b:CountryRegion</DataTag>
+			<Sample>Exemplo: Estados Unidos da América</Sample>
+			<Row>6</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Nome produtor:</Label>
+			<DataTag>b:Author/b:ProducerName/b:NameList</DataTag>
+			<Sample>Exemplo: Dickens, Charles; Hemingway, Ernest</Sample>
+			<ToString>Author2String.XSL</ToString>
+			<ToXML>Author2XML.XSL</ToXML>
+			<Author>Yes</Author>
+			<Row>7</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Empresa de produção:</Label>
+			<DataTag>b:ProductionCompany</DataTag>
+			<Sample>Exemplo: Adventure Works Productions</Sample>
+			<Row>8</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Ano:</Label>
+			<DataTag>b:Year</DataTag>
+			<Sample>Exemplo: 2006</Sample>
+			<Row>9</Row>
+			<Col>1</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Meio:</Label>
+			<DataTag>b:Medium</DataTag>
+			<Sample>Exemplo: Documento</Sample>
+			<Row>9</Row>
+			<Col>3</Col>
+			<Width>3</Width>
+		</Tag>
+		<Tag>
+			<Label>Distribuidor:</Label>
+			<DataTag>b:Distributor</DataTag>
+			<Sample>Exemplo: Adventure Works</Sample>
+			<Row>10</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Título curto:</Label>
+			<DataTag>b:ShortTitle</DataTag>
+			<TitlePriority>2</TitlePriority>
+			<Sample>Exemplo: Bibliografias</Sample>
+			<Row>11</Row>
+			<Col>1</Col>
+			<Width>3</Width>
+		</Tag>
+		<Tag>
+			<Label>Número padrão:</Label>
+			<DataTag>b:StandardNumber</DataTag>
+			<Sample>Exemplo: ISBN/ISSN</Sample>
+			<Row>11</Row>
+			<Col>5</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Comentários:</Label>
+			<DataTag>b:Comments</DataTag>
+			<Sample>Inserir comentários sobre esta fonte.</Sample>
+			<Row>12</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+	</Source>
+	<Source type="Interview" display="Entrevista">
+		<Tag>
+			<Label>Entrevistado:</Label>
+			<DataTag>b:Author/b:Interviewee/b:NameList</DataTag>
+			<Sample>Exemplo: Dickens, Charles; Hemingway, Ernest</Sample>
+			<ToString>Author2String.XSL</ToString>
+			<ToXML>Author2XML.XSL</ToXML>
+			<Author>Yes</Author>
+			<TitlePriority>3</TitlePriority>
+			<Row>1</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Título:</Label>
+			<DataTag>b:Title</DataTag>
+			<TitlePriority>1</TitlePriority>
+			<Sample>Exemplo: Como escrever bibliografias</Sample>
+			<Row>2</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Título da transmissão:</Label>
+			<DataTag>b:BroadcastTitle</DataTag>
+			<TitlePriority>4</TitlePriority>
+			<Sample>Exemplo: O Programa de Bibliografia</Sample>
+			<Row>3</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Entrevistador:</Label>
+			<DataTag>b:Author/b:Interviewer/b:NameList</DataTag>
+			<Sample>Exemplo: Dickens, Charles; Hemingway, Ernest</Sample>
+			<ToString>Author2String.XSL</ToString>
+			<ToXML>Author2XML.XSL</ToXML>
+			<Author>Yes</Author>
+			<TitlePriority>5</TitlePriority>
+			<Row>4</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Ano:</Label>
+			<DataTag>b:Year</DataTag>
+			<Sample>Exemplo: 2006</Sample>
+			<Row>5</Row>
+			<Col>1</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Mês:</Label>
+			<DataTag>b:Month</DataTag>
+			<Sample>Exemplo: janeiro</Sample>
+			<Row>5</Row>
+			<Col>3</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Dia:</Label>
+			<DataTag>b:Day</DataTag>
+			<Sample>Exemplo: 1</Sample>
+			<Row>5</Row>
+			<Col>5</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Compilador:</Label>
+			<DataTag>b:Author/b:Compiler/b:NameList</DataTag>
+			<Sample>Exemplo: Dickens, Charles; Hemingway, Ernest</Sample>
+			<ToString>Author2String.XSL</ToString>
+			<ToXML>Author2XML.XSL</ToXML>
+			<Author>Yes</Author>
+			<Row>6</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Editor:</Label>
+			<DataTag>b:Author/b:Editor/b:NameList</DataTag>
+			<Sample>Exemplo: Dickens, Charles; Hemingway, Ernest</Sample>
+			<ToString>Author2String.XSL</ToString>
+			<ToXML>Author2XML.XSL</ToXML>
+			<Author>Yes</Author>
+			<Row>7</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Tradutor:</Label>
+			<DataTag>b:Author/b:Translator/b:NameList</DataTag>
+			<Sample>Exemplo: Dickens, Charles; Hemingway, Ernest</Sample>
+			<ToString>Author2String.XSL</ToString>
+			<ToXML>Author2XML.XSL</ToXML>
+			<Author>Yes</Author>
+			<Row>8</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Editor:</Label>
+			<DataTag>b:Publisher</DataTag>
+			<Sample>Exemplo: Adventure Works Press</Sample>
+			<Row>9</Row>
+			<Col>1</Col>
+			<Width>3</Width>
+		</Tag>
+		<Tag>
+			<Label>Páginas:</Label>
+			<DataTag>b:Pages</DataTag>
+			<Sample>Exemplo: 152</Sample>
+			<Row>9</Row>
+			<Col>5</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Emissora:</Label>
+			<DataTag>b:Broadcaster</DataTag>
+			<Sample>Exemplo: NBC</Sample>
+			<Row>10</Row>
+			<Col>1</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Estação:</Label>
+			<DataTag>b:Station</DataTag>
+			<Sample>Exemplo: WABC</Sample>
+			<Row>10</Row>
+			<Col>3</Col>
+			<Width>3</Width>
+		</Tag>
+		<Tag>
+			<Label>Cidade:</Label>
+			<DataTag>b:City</DataTag>
+			<Sample>Exemplo: Chicago</Sample>
+			<Row>11</Row>
+			<Col>1</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Estado/Província:</Label>
+			<DataTag>b:StateProvince</DataTag>
+			<Sample>Exemplo: Washington</Sample>
+			<Row>11</Row>
+			<Col>3</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>País/Região:</Label>
+			<DataTag>b:CountryRegion</DataTag>
+			<Sample>Exemplo: Estados Unidos da América</Sample>
+			<Row>11</Row>
+			<Col>5</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Título curto:</Label>
+			<DataTag>b:ShortTitle</DataTag>
+			<TitlePriority>2</TitlePriority>
+			<Sample>Exemplo: Bibliografias</Sample>
+			<Row>12</Row>
+			<Col>1</Col>
+			<Width>3</Width>
+		</Tag>
+		<Tag>
+			<Label>Número padrão:</Label>
+			<DataTag>b:StandardNumber</DataTag>
+			<Sample>Exemplo: ISBN</Sample>
+			<Row>12</Row>
+			<Col>5</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Comentários:</Label>
+			<DataTag>b:Comments</DataTag>
+			<Sample>Inserir comentários sobre esta fonte.</Sample>
+			<Row>13</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+	</Source>
+	<Source type="Patent" display="Patente">
+		<Tag>
+			<Label>Inventor:</Label>
+			<DataTag>b:Author/b:Inventor/b:NameList</DataTag>
+			<Sample>Exemplo: Dickens, Charles; Hemingway, Ernest</Sample>
+			<ToString>Author2String.XSL</ToString>
+			<ToXML>Author2XML.XSL</ToXML>
+			<Author>Yes</Author>
+			<Row>1</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Título:</Label>
+			<DataTag>b:Title</DataTag>
+			<TitlePriority>1</TitlePriority>
+			<Sample>Exemplo: Como escrever bibliografias</Sample>
+			<Row>2</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Ano:</Label>
+			<DataTag>b:Year</DataTag>
+			<Sample>Exemplo: 2006</Sample>
+			<Row>3</Row>
+			<Col>1</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Mês:</Label>
+			<DataTag>b:Month</DataTag>
+			<Sample>Exemplo: janeiro</Sample>
+			<Row>3</Row>
+			<Col>3</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Dia:</Label>
+			<DataTag>b:Day</DataTag>
+			<Sample>Exemplo: 1</Sample>
+			<Row>3</Row>
+			<Col>5</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Tipo:</Label>
+			<DataTag>b:Type</DataTag>
+			<Sample>Exemplo: Software</Sample>
+			<Row>4</Row>
+			<Col>1</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Número de patente:</Label>
+			<DataTag>b:PatentNumber</DataTag>
+			<Sample>Exemplo: 123,456</Sample>
+			<Row>4</Row>
+			<Col>3</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>País/Região:</Label>
+			<DataTag>b:CountryRegion</DataTag>
+			<Sample>Exemplo: Estados Unidos da América</Sample>
+			<Row>4</Row>
+			<Col>5</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Editor:</Label>
+			<DataTag>b:Author/b:Editor/b:NameList</DataTag>
+			<Sample>Exemplo: Dickens, Charles; Hemingway, Ernest</Sample>
+			<ToString>Author2String.XSL</ToString>
+			<ToXML>Author2XML.XSL</ToXML>
+			<Author>Yes</Author>
+			<Row>5</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Tradutor:</Label>
+			<DataTag>b:Author/b:Translator/b:NameList</DataTag>
+			<Sample>Exemplo: Dickens, Charles; Hemingway, Ernest</Sample>
+			<ToString>Author2String.XSL</ToString>
+			<ToXML>Author2XML.XSL</ToXML>
+			<Author>Yes</Author>
+			<Row>6</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Título curto:</Label>
+			<DataTag>b:ShortTitle</DataTag>
+			<TitlePriority>2</TitlePriority>
+			<Sample>Exemplo: Bibliografias</Sample>
+			<Row>7</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Comentários:</Label>
+			<DataTag>b:Comments</DataTag>
+			<Sample>Inserir comentários sobre esta fonte.</Sample>
+			<Row>8</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+	</Source>
+	<Source type="Case" display="Caso">
+		<Tag>
+			<Label>Autor:</Label>
+			<DataTag>b:Author/b:Author/b:NameList</DataTag>
+			<Sample>Exemplo: Dickens, Charles; Hemingway, Ernest</Sample>
+			<ToString>Author2String.XSL</ToString>
+			<ToXML>Author2XML.XSL</ToXML>
+			<Author>Yes</Author>
+			<OrgAuthor>Yes</OrgAuthor>
+			<Row>1</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Título:</Label>
+			<DataTag>b:Title</DataTag>
+			<TitlePriority>1</TitlePriority>
+			<Sample>Exemplo: Como escrever bibliografias</Sample>
+			<Row>3</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Número do processo:</Label>
+			<DataTag>b:CaseNumber</DataTag>
+			<Sample>Exemplo: 1,234a</Sample>
+			<Row>4</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Tribunal:</Label>
+			<DataTag>b:Court</DataTag>
+			<Sample>Exemplo: Supremo Tribunal Federal</Sample>
+			<Row>5</Row>
+			<Col>1</Col>
+			<Width>3</Width>
+		</Tag>
+ 		<Tag>
+			<Label>Localização publicada:</Label>
+			<DataTag>b:City</DataTag>
+			<Sample>Exemplo: Washington, D.C.</Sample>
+			<Row>5</Row>
+			<Col>5</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Ano:</Label>
+			<DataTag>b:Year</DataTag>
+			<Sample>Exemplo: 2006</Sample>
+			<Row>6</Row>
+			<Col>1</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Mês:</Label>
+			<DataTag>b:Month</DataTag>
+			<Sample>Exemplo: janeiro</Sample>
+			<Row>6</Row>
+			<Col>3</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Dia:</Label>
+			<DataTag>b:Day</DataTag>
+			<Sample>Exemplo: 1</Sample>
+			<Row>6</Row>
+			<Col>5</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Relator:</Label>
+			<DataTag>b:Author/b:Reporter/b:NameList</DataTag>
+			<Sample>Exemplo: Dickens, Charles; Hemingway, Ernest</Sample>
+			<ToString>Author2String.XSL</ToString>
+			<ToXML>Author2XML.XSL</ToXML>
+			<Author>Yes</Author>
+			<Row>7</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Advogado:</Label>
+			<DataTag>b:Author/b:Counsel/b:NameList</DataTag>
+			<Sample>Exemplo: Dickens, Charles; Hemingway, Ernest</Sample>
+			<ToString>Author2String.XSL</ToString>
+			<ToXML>Author2XML.XSL</ToXML>
+			<Author>Yes</Author>
+			<Row>8</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Número de processo abreviado:</Label>
+			<DataTag>b:AbbreviatedCaseNumber</DataTag>
+			<Sample>Exemplo: Bibliografias</Sample>
+			<Row>9</Row>
+			<Col>1</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Título curto:</Label>
+			<DataTag>b:ShortTitle</DataTag>
+			<TitlePriority>2</TitlePriority>
+			<Sample>Exemplo: Bibliografias</Sample>
+			<Row>9</Row>
+			<Col>3</Col>
+			<Width>3</Width>
+		</Tag>
+		<Tag>
+			<Label>Comentários:</Label>
+			<DataTag>b:Comments</DataTag>
+			<Sample>Inserir comentários sobre esta fonte.</Sample>
+			<Row>10</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+	</Source>
+	<Source type="Misc" display="Diversos">
+		<Tag>
+			<Label>Autor:</Label>
+			<DataTag>b:Author/b:Author/b:NameList</DataTag>
+			<Sample>Exemplo: Dickens, Charles; Hemingway, Ernest</Sample>
+			<ToString>Author2String.XSL</ToString>
+			<ToXML>Author2XML.XSL</ToXML>
+			<Author>Yes</Author>
+			<OrgAuthor>Yes</OrgAuthor>
+			<Row>1</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Título:</Label>
+			<DataTag>b:Title</DataTag>
+			<TitlePriority>1</TitlePriority>
+			<Sample>Exemplo: Como escrever bibliografias</Sample>
+			<Row>3</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Título da publicação:</Label>
+			<DataTag>b:PublicationTitle</DataTag>
+			<TitlePriority>3</TitlePriority>
+			<Sample>Exemplo: A publicação da bibliografia</Sample>
+			<Row>4</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Tipo de mídia:</Label>
+			<DataTag>b:Medium</DataTag>
+			<Sample>Exemplo: Documento</Sample>
+			<Row>5</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Ano:</Label>
+			<DataTag>b:Year</DataTag>
+			<Sample>Exemplo: 2006</Sample>
+			<Row>6</Row>
+			<Col>1</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Mês:</Label>
+			<DataTag>b:Month</DataTag>
+			<Sample>Exemplo: janeiro</Sample>
+			<Row>6</Row>
+			<Col>3</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Dia:</Label>
+			<DataTag>b:Day</DataTag>
+			<Sample>Exemplo: 1</Sample>
+			<Row>6</Row>
+			<Col>5</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Cidade:</Label>
+			<DataTag>b:City</DataTag>
+			<Sample>Exemplo: Chicago</Sample>
+			<Row>7</Row>
+			<Col>1</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Estado/Província:</Label>
+			<DataTag>b:StateProvince</DataTag>
+			<Sample>Exemplo: Washington</Sample>
+			<Row>7</Row>
+			<Col>3</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>País/Região:</Label>
+			<DataTag>b:CountryRegion</DataTag>
+			<Sample>Exemplo: Estados Unidos da América</Sample>
+			<Row>7</Row>
+			<Col>5</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Editor:</Label>
+			<DataTag>b:Publisher</DataTag>
+			<Sample>Exemplo: Adventure Works Press</Sample>
+			<Row>8</Row>
+			<Col>1</Col>
+			<Width>3</Width>
+		</Tag>
+		<Tag>
+			<Label>Páginas:</Label>
+			<DataTag>b:Pages</DataTag>
+			<Sample>Exemplo: 50-62</Sample>
+			<Row>8</Row>
+			<Col>5</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Volume:</Label>
+			<DataTag>b:Volume</DataTag>
+			<Sample>Exemplo: III</Sample>
+			<Row>9</Row>
+			<Col>1</Col>
+			<Width>1</Width>
+		</Tag>	
+		<Tag>
+			<Label>Edição:</Label>
+			<DataTag>b:Edition</DataTag>
+			<Sample>Exemplo: 2.1</Sample>
+			<Row>9</Row>
+			<Col>3</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Edição:</Label>
+			<!--optional -->
+			<DataTag>b:Issue</DataTag>
+			<Sample>Exemplo: 12</Sample>
+			<Row>9</Row>
+			<Col>5</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Editor:</Label>
+			<DataTag>b:Author/b:Editor/b:NameList</DataTag>
+			<Sample>Exemplo: Dickens, Charles; Hemingway, Ernest</Sample>
+			<ToString>Author2String.XSL</ToString>
+			<ToXML>Author2XML.XSL</ToXML>
+			<Author>Yes</Author>
+			<Row>10</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Tradutor:</Label>
+			<DataTag>b:Author/b:Translator/b:NameList</DataTag>
+			<Sample>Exemplo: Dickens, Charles; Hemingway, Ernest</Sample>
+			<ToString>Author2String.XSL</ToString>
+			<ToXML>Author2XML.XSL</ToXML>
+			<Author>Yes</Author>
+			<Row>11</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Compilador:</Label>
+			<DataTag>b:Author/b:Compiler/b:NameList</DataTag>
+			<Sample>Exemplo: Dickens, Charles; Hemingway, Ernest</Sample>
+			<ToString>Author2String.XSL</ToString>
+			<ToXML>Author2XML.XSL</ToXML>
+			<Author>Yes</Author>
+			<Row>12</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+		<Tag>
+			<Label>Título curto:</Label>
+			<DataTag>b:ShortTitle</DataTag>
+			<TitlePriority>2</TitlePriority>
+			<Sample>Exemplo: Bibliografias</Sample>
+			<Row>13</Row>
+			<Col>1</Col>
+			<Width>3</Width>
+		</Tag>
+		<Tag>
+			<Label>Número padrão:</Label>
+			<DataTag>b:StandardNumber</DataTag>
+			<Sample>Exemplo: ISBN/ISSN</Sample>
+			<Row>13</Row>
+			<Col>5</Col>
+			<Width>1</Width>
+		</Tag>
+		<Tag>
+			<Label>Comentários:</Label>
+			<DataTag>b:Comments</DataTag>
+			<Sample>Inserir comentários sobre esta fonte.</Sample>
+			<Row>14</Row>
+			<Col>1</Col>
+			<Width>5</Width>
+		</Tag>
+	</Source>
+</Forms>
